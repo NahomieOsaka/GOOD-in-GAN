@@ -1,0 +1,21 @@
+name: good-in-gan-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - jupyterlab
+    - notebook
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - scipy
+    - statsmodels
+    - scikit-learn
+    - yfinance
+    - tqdm
+    - jupyter-console
